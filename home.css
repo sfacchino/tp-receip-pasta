@@ -1,0 +1,15 @@
+body {
+	display: flex;
+	justify-content: center;
+	background-color: #f3e5d7;
+}
+td {
+	color: #854632;
+	margin: 20px;
+}
+li {
+	margin: 10px;
+}
+.veg {
+	background-color: white;
+}

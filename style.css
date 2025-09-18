@@ -1,0 +1,24 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f3e5d7;
+}
+a {
+	background-color: #7a284e;
+	border-radius: 8px;
+	color: white;
+	padding: 1px;
+}
+.arrabiata {
+	border: 2px solid white;
+	background-color: white;
+	border-radius: 8px;
+	text-align: center;
+	margin: 20%;
+}
+input {
+	padding: 10px;
+	margin: 5px;
+	justify-content: left;
+}
