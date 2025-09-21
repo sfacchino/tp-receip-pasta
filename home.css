@@ -41,12 +41,13 @@ h2 {
 .droite {
 	color: #854632;
 	font-family: "outfit";
-	text-align: right;
-	width: 60%;
+	text-align: left;
 	font-weight: bold;
+	width: 40%;
 }
 .gauche {
 	font-family: "outfit";
+	width: max-content;
 }
 ol li::marker {
 	color: #854632;
@@ -70,9 +71,9 @@ h3 {
 }
 .tableau {
 	border-collapse: collapse;
+	width: 100%;
 }
 .tableau td {
 	border-bottom: 1px solid black;
 	padding: 8px;
-	width: 100%;
 }
