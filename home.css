@@ -48,6 +48,7 @@ h2 {
 .gauche {
 	font-family: "outfit";
 	width: max-content;
+	color: #5f564d;
 }
 ol li::marker {
 	color: #854632;
@@ -74,6 +75,13 @@ h3 {
 	width: 100%;
 }
 .tableau td {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #e3ddd7;
 	padding: 8px;
+}
+td.gauche {
+	padding-left: 25px;
+}
+.youyou {
+	color: #64b8f4;
+	text-decoration: none;
 }

@@ -1,7 +1,7 @@
 body {
 	display: flex;
 	justify-content: center;
-	margin-top: 20%;
+	margin-top: 14%;
 	background-color: #f3e5d7;
 	font-family: "young serif";
 }
@@ -10,13 +10,6 @@ body {
 	border-radius: 10px;
 	padding: 20px;
 }
-input {
-	color: #e8ceda;
-	background-color: #fff7fb;
-	border-style: none;
-	display: block;
-	padding: 10px;
-}
 a {
 	background-color: #7a284e;
 	color: white;
@@ -24,4 +17,29 @@ a {
 	display: block;
 	text-align: center;
 	padding: 15px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+h1 {
+	font-weight: 400;
+	color: #312e2c;
+	width: 80%;
+	white-space: nowrap;
+	text-align: left;
+	margin-right: 70px;
+}
+.penne::placeholder {
+	color: #e8ceda;
+	background-color: #fff7fb;
+	font-family: "young serif";
+	font-size: 22px;
+}
+.penne {
+	width: 94%;
+	padding: 15px;
+	background-color: #fff7fb;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
 }
